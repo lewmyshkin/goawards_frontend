@@ -1,0 +1,343 @@
+
+/***************************navbar begins here****************************/
+
+ .navbar {
+   border-radius: 0;
+ }
+
+ .navbar-inverse .navbar-nav>.active>a,
+ .navbar-inverse .navbar-nav>.active>a:focus,
+ .navbar-inverse .navbar-nav>.active>a:hover {
+   background-color: #222;
+ }
+
+ .navbar-header p {
+   margin-top: 5px;
+   font-family: Montserrat, sans-serif;
+   font-size: 2em;
+   font-weight: 600;
+ }
+
+ .navbar-inverse .navbar-brand {
+   color: white;
+ }
+
+ .navbar-inverse .navbar-nav>li>a {
+   margin-top: 5px;
+   font-size: 1.3em;
+   font-family: Montserrat, sans-serif;
+ }
+
+/***************************navbar ends here******************************/
+
+/***************************news begin here*******************************/
+
+@media (max-width: 991px) {
+  #newswrapper .col-xs-12, .col-sm-12 {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    float: none;
+  }
+}
+
+@media (min-width: 992px) {
+  #newswrapper .col-md-12, .col-lg-12 {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    float: none;
+  }
+}
+
+/***************************news end here*********************************/
+
+/***************************awards_heading begins here********************/
+
+@media (max-width: 991px) {
+  .heading .col-xs-12, .col-sm-12 {
+    width: 100%;
+    margin: 0 auto 50px auto;
+    padding: 0;
+    float: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .heading .col-md-12, .col-lg-12 {
+    width: 80%;
+    margin: 50px auto 50px auto;
+    padding: 0;
+    float: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .heading h1 {
+    text-align: center;
+  }
+}
+
+/***************************awards_heading ends here**********************/
+
+/***************************awards_accordion begins here******************/
+
+@media (min-width: 992px) {
+  #accordion {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    float: none;
+  }
+}
+
+#accordion .panel-default > .panel-heading {
+  background-color: #222222;
+}
+
+#accordion .panel-title {
+  display: inline;
+  color: white;
+}
+
+#accordion .panel-heading a,
+#accordion .panel-heading i {
+  display: inline;
+  text-decoration: none;
+  color: white;
+}
+
+#accordion .points {
+  float: right;
+}
+
+#accordion .panel-heading .fa,
+#accordion .panel-heading .fa-chevron-circle-right {
+  margin-top: 3px;
+  margin-left: 10px;
+}
+
+#accordion .panel-body .col-md-12 {
+  width: 100%;
+  margin: 0;
+}
+
+#accordion .panel-body #row {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+#accordion .panel-body #row:last-child {
+  border: none;
+}
+
+@media (min-width: 992px) {
+  #accordion .panel-body #row {
+    height: 120px;
+  }
+}
+
+#accordion .panel-body .img-responsive {
+  margin: auto;
+}
+
+#accordion .panel-body h4,
+#accordion .panel-body p {
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  #accordion .panel-body .award-title {
+    margin-top: 30px;
+  }
+  #accordion .panel-body .award-owners {
+    margin-top: 45px;
+  }
+}
+
+/***************************awards_accordion ends here********************/
+
+/***************************ladders begin here****************************/
+
+@media (min-width: 992px) {
+  .laddertype {
+    margin: 50px auto;
+    width: 80%;
+    height: 350px;
+  }
+}
+
+.ladderheader {
+  height: 40px;
+  margin-bottom: 20px;
+  background-color: #222222;
+}
+
+.laddertype h3 {
+  text-align: center;
+  color: white;
+}
+
+@media (min-width: 992px) {
+  .toptenheader {
+    width: 40%;
+    margin: 0px auto 30px auto;
+  }
+}
+
+.toptenheader h4 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.5em;
+  color: #222222;
+}
+
+.topten {
+  margin-bottom: 50px;
+}
+
+.topten th,
+.topten td {
+  width: 120px;
+  height: 40px;
+  padding: 10 px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.topten tr:first-child:hover {
+  background-color: white;
+}
+
+.topten tr:hover {
+  background-color: #f5f5f5;
+}
+
+/***************************ladders end here******************************/
+
+/***************************account begins here***************************/
+
+@media (max-width: 991px) {
+  form {
+    width: 80%;
+    margin: 0 auto 30px auto;
+  }
+}
+
+@media (min-width: 992px) {
+  form {
+    width: 20%;
+    margin: 0 auto;
+  }
+  #stats {
+    width: 80%;
+    margin: 50px auto 550px auto;
+    padding: 0;
+    float: none;
+  }
+  #stats .col-md-3,
+  #stats .col-lg-3 {
+    width: 33%;
+  }
+}
+
+.user img {
+  margin: 20px auto 0 auto;
+}
+
+.user h2,
+.userawards h2 {
+  text-align: center;
+}
+
+.userstats h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.userstats table,
+.userawards table {
+  margin: 0 auto;
+}
+
+.userstats td {
+  padding-right: 30px;
+  font-size: 1.3em;
+  border-bottom: 1px solid #ddd;
+}
+
+.userawards td {
+  padding: 20px 20px 0 0;
+}
+
+@media (min-width: 992px) {
+  #useraccordion {
+    width: 80%;
+    margin: 50px auto 0 auto;
+    padding: 0;
+    float: none;
+  }
+}
+
+#useraccordion .panel-default > .panel-heading {
+  background-color: #222222;
+}
+
+#useraccordion .panel-title {
+  display: inline;
+  color: white;
+}
+
+#useraccordion .panel-heading a,
+#useraccordion .panel-heading i {
+  display: inline;
+  text-decoration: none;
+  color: white;
+}
+
+#useraccordion .won-awards {
+  float: right;
+}
+
+#useraccordion .panel-heading .fa,
+#useraccordion .panel-heading .fa-chevron-circle-right {
+  margin-top: 3px;
+  margin-left: 10px;
+}
+
+#useraccordion .panel-body .col-md-12 {
+  width: 100%;
+  margin: 0;
+}
+
+#useraccordion .panel-body #row {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+#useraccordion .panel-body #row:last-child {
+  border: none;
+}
+
+@media (min-width: 992px) {
+  #useraccordion .panel-body #row {
+    height: 120px;
+  }
+}
+
+#useraccordion .panel-body .img-responsive {
+  margin: auto;
+}
+
+#useraccordion .panel-body h4,
+#useraccordion .panel-body p {
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  #useraccordion .panel-body .award-owners {
+    margin-top: 20px;
+  }
+}
+
+/***************************account ends here*****************************/
