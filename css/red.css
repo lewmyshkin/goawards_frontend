@@ -1,14 +1,22 @@
 
+body {
+  background-color: #DDE9EB;
+}
+
 /***************************navbar begins here****************************/
 
  .navbar {
    border-radius: 0;
+   background-color: red;
+   border: none;
+   box-shadow: 2px 2px 2px #888888;
  }
 
  .navbar-inverse .navbar-nav>.active>a,
  .navbar-inverse .navbar-nav>.active>a:focus,
  .navbar-inverse .navbar-nav>.active>a:hover {
-   background-color: #222;
+   background-color: red;
+   color: white;
  }
 
  .navbar-header p {
@@ -26,6 +34,10 @@
    margin-top: 5px;
    font-size: 1.3em;
    font-family: Montserrat, sans-serif;
+ }
+
+ .navbar-inverse .navbar-nav>li>a:hover {
+   color: white;
  }
 
  #colorchanger {
@@ -53,6 +65,7 @@
 
  #red {
    background-color: red;
+   border: 1px solid white;
  }
 
  #green {
@@ -82,7 +95,18 @@
 }
 
 #newswrapper #row {
+  margin-bottom: 50px;
   padding: 50px 0px;
+  background-color: red;
+  box-shadow: 2px 2px 2px #888888;
+  color: white;
+}
+
+.col-xs-12,
+.col-sm-12,
+.col-md-12,
+.col-lg-12 {
+  margin-bottom: 50px;
 }
 
 /***************************news end here*********************************/
